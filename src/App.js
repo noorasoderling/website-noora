@@ -1,10 +1,18 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Nooran kotisivut</h1>
-    </div>
+    <>
+    <Router>
+      <Navbar/>
+      <Switch>
+        <Route path='/' exact />
+      </Switch>
+    </Router>
+    </>
   );
 }
 
