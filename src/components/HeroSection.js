@@ -9,7 +9,7 @@ import {faPlay} from '@fortawesome/free-solid-svg-icons';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <img src='/images/img-3.jpg' alt="Long sea with tiny human" />
+      <video src='/videos/video-1.mp4' autoPlay loop muted />
       <h1>Noora Söderling</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
@@ -25,4 +25,4 @@ function HeroSection() {
   )
 }
 
-export default HeroSection
+export default HeroSection;
