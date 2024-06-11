@@ -9,7 +9,8 @@ import {faPlay} from '@fortawesome/free-solid-svg-icons';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
+      {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
+      <img src='/images/img-3.jpg' alt='Horizontal pose of Noora'></img>
       <h1>Noora Söderling</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>

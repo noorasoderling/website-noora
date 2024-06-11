@@ -10,7 +10,8 @@ function App() {
     <Router>
       <Navbar/>
       <Routes>
-        <Route path='/' exact component={Home}/>
+      {/* <Route path='/' exact component={Home} /> */}
+      <Route path='/' exact element={ <Home />}></Route>
       </Routes> 
     </Router>
     </>
