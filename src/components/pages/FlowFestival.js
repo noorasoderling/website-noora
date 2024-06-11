@@ -1,6 +1,10 @@
 import React from 'react';
 import '../../App.css';
 
-export default FlowFestival() {
-    return <h1 className='flow-festival'>Flow Festival</h1>;
+function FlowFestival() {
+  return (
+    <h1 className='flow-festival'>Flow Festival</h1>
+  )
 }
+
+export default FlowFestival;

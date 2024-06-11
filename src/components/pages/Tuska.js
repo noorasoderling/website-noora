@@ -1,6 +1,10 @@
 import React from 'react';
 import '../../App.css';
 
-export default Tuska() {
-    return <h1 className='Tuska'>PRODUCTS</h1>;
+function Tuska() {
+  return (
+    <h1 className='tuska'>Tuska</h1>
+  )
 }
+
+export default Tuska;

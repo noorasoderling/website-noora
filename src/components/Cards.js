@@ -16,10 +16,16 @@ function Cards() {
             path="/services"
             />
         <CardItem 
-            src="images/tuska-img.jpeg"
+            src="images/travel-image.jpeg"
             text="Flow Festival material footrprint and carbon footprint calculator."
             label="WebDev"
-            path="/services"
+            path="/FlowFestival"
+            />
+            <CardItem 
+            src="images/img-3.jpg"
+            text="Contact Noora from here"
+            label="Mobile"
+            path="/Contact"
             />
       </ul>
     </div>
