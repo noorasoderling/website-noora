@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faDove, faBars, faX} from '@fortawesome/free-solid-svg-icons';
+import {faBars, faX} from '@fortawesome/free-solid-svg-icons';
 import { Button } from './Button';
 import './Navbar.css'
 
@@ -31,7 +31,7 @@ window.addEventListener('resize', showButton)
     <nav className="navbar">
         <div className='navbar-container'>
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            NOORA SÖDERLING <FontAwesomeIcon icon={faDove} />
+            NOORA SÖDERLING
             </Link>
             <div className='menu-icon' onClick={handleClick}>
             <FontAwesomeIcon icon={click ? faX : faBars} />
@@ -58,7 +58,7 @@ window.addEventListener('resize', showButton)
                 </Link>
               </li>
             </ul>
-            {button && <Button buttonStyle='btn--outline'>Contact Me</Button>}
+            {button && <Button buttonStyle='navbar-btn--outline'>Contact Me</Button>}
         </div>
     </nav>
     </>
