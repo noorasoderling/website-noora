@@ -11,6 +11,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <div className='hero-text-container'>
+      <span className='divider'></span>
         <h1>Front End Developer</h1>
         <p>Crafting Digital Experiences, Driving Business Growth</p>
     </div>
