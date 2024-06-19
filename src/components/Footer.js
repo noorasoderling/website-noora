@@ -2,8 +2,6 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faBattery3, faMobile} from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
   return (
@@ -52,42 +50,7 @@ function Footer() {
             </div>
         </div>
       </div>
-      <section className='social-media'>
-        <div className='social-media-wrap'>
-            <div className='footer-logo'>
-                <Link to='/' className='social-logo'>
-                SOCIALS 
-                </Link>
-                <small className='social-icons'>
-                    <Link 
-                    className='social-icon-link linkedin'
-                    to='/'
-                    target='_blank'
-                    aria-label='LinkedIn'
-                    >
-                        <FontAwesomeIcon icon={faBattery3} />
-                    </Link>
-                    <Link 
-                    className='social-icon-link github'
-                    to='/'
-                    target='_blank'
-                    aria-label='Github'
-                    >
-                        <FontAwesomeIcon icon={faBattery3} />
-                    </Link>
-                    <Link 
-                    className='social-icon-link mobile'
-                    to='/'
-                    target='_blank'
-                    aria-label='mobile'
-                    >
-                        <FontAwesomeIcon icon={faMobile} />
-                    </Link>
-                </small>
-            </div>
-        </div>
-
-      </section>
+      
     </div>
   )
 }

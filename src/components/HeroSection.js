@@ -1,28 +1,51 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import { Link } from 'react-router-dom';
 import './HeroSection.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faPlay} from '@fortawesome/free-solid-svg-icons';
+import {faBattery3, faMobile} from '@fortawesome/free-solid-svg-icons';
+
 
 
 function HeroSection() {
   return (
     <div className='hero-container'>
-      {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
-      <img src='/images/img-3.jpg' alt='Horizontal pose of Noora'></img>
-      <h1>Noora Söderling</h1>
-      <p>What are you waiting for?</p>
-      <div className='hero-btns'>
-        <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' >
-            Contact Here
-        </Button>
-        <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' >
-            Watch my Video <FontAwesomeIcon icon={faPlay} />
-        </Button>
-        
-      </div>
+      <div className='hero-text-container'>
+        <h1>Front End Developer</h1>
+        <p>Crafting Digital Experiences, Driving Business Growth</p>
     </div>
+    <img src="/images/IMG_9247.jpg" alt="Outoors author posing in autumn scenery"></img>
+    <div className='hero-socials-container'>
+    <section className='hero-social-media'>
+        <div className='hero-social-media-wrap'>
+            <div>
+                <Link to='/' className='hero-social-logo'>
+                Socials: 
+                </Link>
+                <small className='hero-social-icons'>
+                    <Link 
+                    className='hero-social-icon-link linkedin'
+                    to='/'
+                    target='_blank'
+                    aria-label='LinkedIn'
+                    >
+                        <FontAwesomeIcon icon={faBattery3} />
+                    </Link>
+                    <Link 
+                    className='hero-social-icon-link github'
+                    to='/'
+                    target='_blank'
+                    aria-label='Github'
+                    >
+                        <FontAwesomeIcon icon={faMobile} />
+                    </Link>
+                </small>
+            </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
   )
 }
 
