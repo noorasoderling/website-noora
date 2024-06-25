@@ -1,0 +1,74 @@
+.projectView-container {
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 4rem;
+    width: 100%;
+    padding: 4rem;    
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #242424;
+    color: #fff;
+  }
+
+  .projectView-2cols-1 {
+    max-width: 50%;
+  }
+
+  .projectView-2cols-2 {
+    margin-left: 2em;
+    margin-top: 2em;
+    max-width: 50%;
+  }
+
+  .projectView-li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .projectView-divider {
+    display: inline-block;
+    height: 3px;
+    background-color: #fff;
+    width: 4em;
+    border-radius: 25px;
+  }
+
+  .section-divider {
+    display: flex;
+    height: 1px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0 1em 0;
+  }
+
+  .projectView h2 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: left;
+    }
+
+  .projectView-li h4 {
+      font-size: 30px;
+      font-weight: 200;
+      margin-left: 20px;
+    }
+
+  .projectView-li p {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .toggled-paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 1em;
+
+  }

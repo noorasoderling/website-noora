@@ -2,8 +2,6 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faBattery3, faMobile} from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
   return (
@@ -27,67 +25,32 @@ function Footer() {
             <div className='footer-link-items'>
                 <h2>About me</h2>
                 <Link to='/Contact'>How it works</Link>
-                <Link to='/Tuska'>Tuska</Link>
-                <Link to='/FlowFestival'>Flow Festival</Link>
+                <Link to='/Tuska'>Web Development</Link>
+                <Link to='/FlowFestival'>React Native</Link>
             </div>
             <div className='footer-link-items'>
                 <h2>Contact me</h2>
                 <Link to='/Contact'>How it works</Link>
-                <Link to='/Tuska'>Tuska</Link>
-                <Link to='/FlowFestival'>Flow Festival</Link>
+                <Link to='/Tuska'>Web Development</Link>
+                <Link to='/FlowFestival'>React Native</Link>
             </div>
         </div>
         <div className='footer-link-wrapper'>
             <div className='footer-link-items'>
                 <h2>About me</h2>
                 <Link to='/Contact'>How it works</Link>
-                <Link to='/Tuska'>Tuska</Link>
-                <Link to='/FlowFestival'>Flow Festival</Link>
+                <Link to='/Tuska'>Web Development</Link>
+                <Link to='/FlowFestival'>React Native</Link>
             </div>
             <div className='footer-link-items'>
                 <h2>Contact me</h2>
                 <Link to='/Contact'>How it works</Link>
-                <Link to='/Tuska'>Tuska</Link>
-                <Link to='/FlowFestival'>Flow Festival</Link>
+                <Link to='/Tuska'>Web Development</Link>
+                <Link to='/FlowFestival'>React Native</Link>
             </div>
         </div>
       </div>
-      <section className='social-media'>
-        <div className='social-media-wrap'>
-            <div className='footer-logo'>
-                <Link to='/' className='social-logo'>
-                SOCIALS 
-                </Link>
-                <small className='social-icons'>
-                    <Link 
-                    className='social-icon-link linkedin'
-                    to='/'
-                    target='_blank'
-                    aria-label='LinkedIn'
-                    >
-                        <FontAwesomeIcon icon={faBattery3} />
-                    </Link>
-                    <Link 
-                    className='social-icon-link github'
-                    to='/'
-                    target='_blank'
-                    aria-label='Github'
-                    >
-                        <FontAwesomeIcon icon={faBattery3} />
-                    </Link>
-                    <Link 
-                    className='social-icon-link mobile'
-                    to='/'
-                    target='_blank'
-                    aria-label='mobile'
-                    >
-                        <FontAwesomeIcon icon={faMobile} />
-                    </Link>
-                </small>
-            </div>
-        </div>
-
-      </section>
+      
     </div>
   )
 }
