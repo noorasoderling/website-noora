@@ -1,0 +1,9 @@
+.toggle-button {
+    color: #fff;
+    font-size: 20px;
+    /* transition: background-color 0.3s ease; */
+  }
+  
+  .toggle-button.open {
+    color: #4c4c4c;
+  }

@@ -3,7 +3,7 @@ import '../App.css';
 import { Link } from 'react-router-dom';
 import './HeroSection.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faBattery3, faMobile} from '@fortawesome/free-solid-svg-icons';
+import {faInfo, faCodeBranch} from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -30,7 +30,7 @@ function HeroSection() {
                     target='_blank'
                     aria-label='LinkedIn'
                     >
-                        <FontAwesomeIcon icon={faBattery3} />
+                        <FontAwesomeIcon icon={faInfo} />
                     </Link>
                     <Link 
                     className='hero-social-icon-link github'
@@ -38,7 +38,7 @@ function HeroSection() {
                     target='_blank'
                     aria-label='Github'
                     >
-                        <FontAwesomeIcon icon={faMobile} />
+                        <FontAwesomeIcon icon={faCodeBranch} />
                     </Link>
                 </small>
             </div>

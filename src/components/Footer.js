@@ -25,28 +25,28 @@ function Footer() {
             <div className='footer-link-items'>
                 <h2>About me</h2>
                 <Link to='/Contact'>How it works</Link>
-                <Link to='/Tuska'>Tuska</Link>
-                <Link to='/FlowFestival'>Flow Festival</Link>
+                <Link to='/Tuska'>Web Development</Link>
+                <Link to='/FlowFestival'>React Native</Link>
             </div>
             <div className='footer-link-items'>
                 <h2>Contact me</h2>
                 <Link to='/Contact'>How it works</Link>
-                <Link to='/Tuska'>Tuska</Link>
-                <Link to='/FlowFestival'>Flow Festival</Link>
+                <Link to='/Tuska'>Web Development</Link>
+                <Link to='/FlowFestival'>React Native</Link>
             </div>
         </div>
         <div className='footer-link-wrapper'>
             <div className='footer-link-items'>
                 <h2>About me</h2>
                 <Link to='/Contact'>How it works</Link>
-                <Link to='/Tuska'>Tuska</Link>
-                <Link to='/FlowFestival'>Flow Festival</Link>
+                <Link to='/Tuska'>Web Development</Link>
+                <Link to='/FlowFestival'>React Native</Link>
             </div>
             <div className='footer-link-items'>
                 <h2>Contact me</h2>
                 <Link to='/Contact'>How it works</Link>
-                <Link to='/Tuska'>Tuska</Link>
-                <Link to='/FlowFestival'>Flow Festival</Link>
+                <Link to='/Tuska'>Web Development</Link>
+                <Link to='/FlowFestival'>React Native</Link>
             </div>
         </div>
       </div>
