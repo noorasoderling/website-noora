@@ -1,11 +1,13 @@
 import React from 'react';
-import CardItem from './CardItem';
+import CardItem from '../CardItem';
 import './Cards.css';
+import Divider from '../Divider';
 
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out my Projects</h1>
+      <Divider color={'var(--dark)'}/>
+      <h2>Check out my Projects</h2>
       <div className='cards__container'></div>
       <div className='cards__wrapper'></div>
       <ul className='cards__items'>

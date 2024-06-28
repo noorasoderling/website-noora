@@ -1,15 +1,15 @@
 .projectView-container {
     height: auto;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     font-size: 3rem;
     margin-top: 4rem;
     width: 100%;
     padding: 4rem;    
     display: inline-flex;
     flex-direction: row;
-    background-color: #242424;
-    color: #fff;
+    background-color: var(--dark);
+    color: var(--light);
   }
 
   .projectView-2cols-1 {
@@ -29,14 +29,6 @@
     align-items: center;
   }
 
-  .projectView-divider {
-    display: inline-block;
-    height: 3px;
-    background-color: #fff;
-    width: 4em;
-    border-radius: 25px;
-  }
-
   .section-divider {
     display: flex;
     height: 1px;
@@ -48,25 +40,16 @@
     margin: 1em 0 1em 0;
   }
 
-  .projectView h2 {
-    font-size: 50px;
-    font-weight: 600;
-    text-align: left;
-    }
+.projectView-li h2 {
+  color: var(--hightlight2);
+}
 
-  .projectView-li h4 {
-      font-size: 30px;
-      font-weight: 200;
-      margin-left: 20px;
-    }
-
-  .projectView-li p {
-    font-size: 50px;
-    font-weight: 600;
-    text-align: left;
+.projectView-li h4 {
+  color: var(--light);
+  margin-left: 20px;
   }
 
-  .toggled-paragraph {
+  .toggled-paragraph p {
     font-size: 20px;
     font-weight: 400;
     margin-top: 1em;

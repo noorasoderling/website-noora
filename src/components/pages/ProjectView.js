@@ -5,6 +5,7 @@ import '../ToggleButton.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faChevronDown} from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
+import Divider from '../Divider';
 
 function ProjectView() {
 
@@ -24,15 +25,15 @@ function ProjectView() {
     }
 
  return (
-    <div className='projectView-container projectView'>
+    <div className='projectView-container'>
       <div className='projectView-2cols-1'>
-        <span className='projectView-divider'></span>
+        <Divider color={'var(--light)'}/>
         <h2>Projectsss</h2>
         <p>Check out my latest projects and their details. </p>
       </div>
       <div className='projectView-2cols-2'>
         <div className='projectView-li'>
-          <p>01</p><h4>Mobile Application</h4>
+          <h2>01</h2><h4>Mobile Application</h4>
             <div onClick={handleChange1} className='toggle-button'>
               <FontAwesomeIcon icon={faChevronDown} />
             </div>
@@ -41,7 +42,7 @@ function ProjectView() {
           <p>Mobile application development is the process of making software for smartphones, tablets and digital assistants, most commonly for the Android and iOS operating systems.</p></div> : null}
         <span className='section-divider'></span>
         <div className='projectView-li'>
-        <p>02</p><h4>Web Development</h4>
+        <h2>02</h2><h4>Web Development</h4>
           <div onClick={handleChange2} className='toggle-button'>
                 <FontAwesomeIcon icon={faChevronDown} />
           </div>
@@ -50,7 +51,7 @@ function ProjectView() {
           <p>Web development, also known as website development, refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser. It may, however, also include web design, web programming, and database management.</p></div> : null}
         <span className='section-divider'></span>
         <div className='projectView-li'>
-        <p>03</p><h4>Digital Marketing</h4>
+        <h2>03</h2><h4>Digital Marketing</h4>
           <div onClick={handleChange3} className='toggle-button'>
             <FontAwesomeIcon icon={faChevronDown} />
           </div>

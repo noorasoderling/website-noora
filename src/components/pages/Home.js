@@ -1,10 +1,9 @@
 import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection';
-import Cards from '../Cards';
+import Cards from './Cards.js';
 import Footer from '../Footer';
 import ProjectView from './ProjectView.js';
-import Resume from './Resume.js';
 
 
 function Home () {
@@ -12,7 +11,6 @@ function Home () {
         <>
         <HeroSection />
         <ProjectView />
-        <Resume />
         <Cards />
         <Footer />
         </>
