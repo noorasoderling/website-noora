@@ -9,10 +9,10 @@ function SocialMediaSection() {
         <h4>Socials:</h4>
             <div className='social-media-icons'>
                 <a href='https://github.com/noorasoderling'>
-                    <Github color={'#0020D3'} />
+                    <Github color={'var(--hightlight2)'} />
                 </a>
                 <a href='https://www.linkedin.com/in/noora-s%C3%B6derling-39798b110/'>
-                    <LinkedIn color={'#0020D3'}/>
+                    <LinkedIn color={'var(--hightlight2)'}/>
                 </a>
             </div>
     </section>

@@ -2,7 +2,10 @@
     padding: 4rem;
     background: #fff;
   }
-  
+  .cards h2 {
+    color: var(--dark);
+  }
+
   .cards__container {
     display: flex;
     flex-flow: column;
@@ -32,7 +35,7 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    box-shadow: 0 6px 20px rgba(0, 6, 41, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
@@ -62,7 +65,7 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    background-color: var(--highlight1);
     box-sizing: border-box;
   }
   
