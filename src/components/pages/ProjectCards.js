@@ -1,7 +1,7 @@
 import React from 'react';
 import CardItem from '../CardItem';
-import './Cards.css';
 import Divider from '../Divider';
+import './ProjectCards.css';
 
 function Cards() {
   return (
@@ -12,6 +12,9 @@ function Cards() {
       <div className='cards__wrapper'></div>
       <ul className='cards__items'>
         <CardItem 
+
+        />
+        {/* <CardItem 
             src="images/tuska-img.jpeg"
             text="Explore the world of mobile application development."
             label="Mobile"
@@ -28,7 +31,7 @@ function Cards() {
             text="Contact Noora from here"
             label="Mobile"
             path="/Contact"
-            />
+            /> */}
       </ul>
     </div>
   )

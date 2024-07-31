@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faBars, faX} from '@fortawesome/free-solid-svg-icons';
 import { Button } from './Button';
@@ -30,32 +30,32 @@ window.addEventListener('resize', showButton)
     <>
     <nav className="navbar">
         <div className='navbar-container'>
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            <NavLink to="/" className="navbar-logo" onClick={closeMobileMenu}>
             NOORA SÖDERLING
-            </Link>
+            </NavLink>
             <div className='menu-icon' onClick={handleClick}>
             <FontAwesomeIcon icon={click ? faX : faBars} />
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
               <li className='nav-item'>
-                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                <NavLink to='/' className='nav-links' onClick={closeMobileMenu}>
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li className='nav-item'>
-                <Link to='/CV' className='nav-links' onClick={closeMobileMenu}>
-                  CV
-                </Link>
+                <NavLink to='/CompetenceView' className='nav-links' onClick={closeMobileMenu}>
+                  Competence
+                </NavLink>
               </li>
               <li className='nav-item'>
-                <Link to='/Projects' className='nav-links' onClick={closeMobileMenu}>
+                <NavLink to='/ProjectView' className='nav-links' onClick={closeMobileMenu}>
                   Projects
-                </Link>
+                </NavLink>
               </li>
               <li className='nav-item'>
-                <Link to='/Contact' className='nav-links-mobile' onClick={closeMobileMenu}>
+                <NavLink to='/Contact' className='nav-links-mobile' onClick={closeMobileMenu}>
                   Contact
-                </Link>
+                </NavLink>
               </li>
             </ul>
             {button && <Button buttonStyle='btn--outline'>Contact Me</Button>}

@@ -1,4 +1,4 @@
-.projectView-container {
+.competenceView-container {
     height: auto;
     align-items: center;
     justify-content: space-between;
@@ -12,28 +12,28 @@
     color: var(--light);
   }
 
-  .projectView-2cols-1 {
+  .competenceView-2cols-1 {
     max-width: 50%;
   }
 
-  .projectView-2cols-2 {
+  .competenceView-2cols-2 {
     margin-left: 2em;
     margin-top: 2em;
     max-width: 50%;
   }
 
-  .projectView-2cols-2 ul {
+  .competenceView-2cols-2 ul {
     list-style-type: none;
   }
 
-  .projectView {
+  .competenceView {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
 
-  .projectView li {
+  .competenceView li {
     color: var(--light);
   }
 
@@ -48,11 +48,11 @@
     margin: 1em 0 1em 0;
   }
 
-.projectView h2 {
+.competenceView h2 {
   color: var(--hightlight2);
 }
 
-.projectView h4 {
+.competenceView h4 {
   margin-left: 20px;
   color: var(--light);
   }
