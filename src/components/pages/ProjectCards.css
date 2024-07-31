@@ -8,7 +8,7 @@
 
   .cards__container {
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     align-items: center;
     max-width: 1120px;
     width: 90%;
@@ -17,16 +17,23 @@
   
   .cards__wrapper {
     position: relative;
+    display: flex;
     margin: 50px 0 45px;
   }
-  
+
   .cards__items {
     margin-bottom: 24px;
   }
-  
+
+  .cards__items ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+
   .cards__item {
     display: flex;
-    flex: 1;
+    flex: 3;
     margin: 0 1rem;
     border-radius: 10px;
   }

@@ -2,10 +2,10 @@ import React from 'react';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faChevronDown} from '@fortawesome/free-solid-svg-icons';
-import './ProjectView.css';
+import './CompetenceView.css';
 import '../ToggleButton.css';
 
-const projectData = [
+const competenceData = [
     {
         id: 0,
         name: 'Mobile Application',
@@ -35,9 +35,9 @@ function CompetenceList() {
   
   return (
     <ul>
-        {projectData.map((competence) => (
+        {competenceData.map((competence) => (
             <li key={competence.id}>
-                <div className='projectView'>
+                <div className='competenceView'>
                     <h2>{competence.id}</h2>
                     <h4>{competence.name}</h4>
                     <div onClick={() => handleChange(competence.id)} className='toggle-button'>
