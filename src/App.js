@@ -4,7 +4,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes,  Route } from 'react-router-dom';
 import Home from './components/pages/Home'; 
 import CompetenceView from './components/pages/CompetenceView';
-import ProjectCards from './components/pages/ProjectCards';
+import ProjectsPage from './components/pages/ProjectsPage';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
       {/* <Route path='/' exact component={Home} /> */}
         <Route path='/' exact element={ <Home />}></Route>
         <Route path='/CompetenceView' exact element={ <CompetenceView />}></Route>
-        <Route path='/ProjectView' exact element={ <ProjectCards />}></Route>
+        <Route path='/ProjectsPage' exact element={ <ProjectsPage />}></Route>
       </Routes> 
+      <Footer />
     </Router>
     </>
   );
