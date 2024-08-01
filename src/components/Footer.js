@@ -7,11 +7,11 @@ import '../App.css';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
+      <section className='footer-section-1'>
+        <p className='footer-section-1-heading'>
             Join the adventure of Noora living her best life.
         </p>
-        <p className='footer-subscription-text'>
+        <p className='footer-section-1-text'>
             You can never unsubscribe
         </p>
         <div className='input-areas'>
@@ -21,37 +21,18 @@ function Footer() {
             </form>
         </div>
       </section>
-      <div className='footer-links'>
-        <div className='footer-link-wrapper'>
-            <div className='footer-link-items'>
-                <h2>About me</h2>
-                <Link to='/Contact'>How it works</Link>
-                <Link to='/Tuska'>Web Development</Link>
-                <Link to='/FlowFestival'>React Native</Link>
-            </div>
-            <div className='footer-link-items'>
-                <h2>Contact me</h2>
-                <Link to='/Contact'>How it works</Link>
-                <Link to='/Tuska'>Web Development</Link>
-                <Link to='/FlowFestival'>React Native</Link>
-            </div>
+      <section>
+        <div className='footer-section-2'>
+          <div className='footer-link-wrapper'>
+              <div className='footer-link-items'>
+                  <h4>Visit these pages as well:</h4>
+                  <Link to='/Contact'>How it works</Link>
+                  <Link to='/Tuska'>Web Development</Link>
+                  <Link to='/FlowFestival'>React Native</Link>
+              </div>
+          </div>
         </div>
-        <div className='footer-link-wrapper'>
-            <div className='footer-link-items'>
-                <h2>About me</h2>
-                <Link to='/Contact'>How it works</Link>
-                <Link to='/Tuska'>Web Development</Link>
-                <Link to='/FlowFestival'>React Native</Link>
-            </div>
-            <div className='footer-link-items'>
-                <h2>Contact me</h2>
-                <Link to='/Contact'>How it works</Link>
-                <Link to='/Tuska'>Web Development</Link>
-                <Link to='/FlowFestival'>React Native</Link>
-            </div>
-        </div>
-      </div>
-      
+      </section>
     </div>
   )
 }

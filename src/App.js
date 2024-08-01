@@ -17,7 +17,7 @@ function App() {
         <Route path='/' exact element={ <Home />}></Route>
         <Route path='/CompetenceView' exact element={ <CompetenceView />}></Route>
         <Route path='/ProjectsPage' exact element={ <ProjectsPage />}></Route>
-      </Routes> 
+      </Routes>
       <Footer />
     </Router>
     </>

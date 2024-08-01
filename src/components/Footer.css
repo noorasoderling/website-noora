@@ -1,13 +1,16 @@
 .footer-container {
+    width: 100%;
     background-color: var(--dark);
     padding: 4rem 0 2rem 0;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the start of the cross-axis */
   }
-  
-  .footer-subscription {
+
+  /* START Section 1 */
+  .footer-section-1 {
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,12 +21,12 @@
     color: var(--light);
   }
   
-  .footer-subscription-heading {
+  .footer-section-1-heading {
     margin-bottom: 24px;
     font-size: 24px;
   }
   
-  .footer-subscription-text {
+  .footer-section-1-text {
     margin-bottom: 24px;
     font-size: 20px;
   }
@@ -38,12 +41,14 @@
     margin-bottom: 16px;
     border: 1px solid var(--light);
   }
-  
-  .footer-links {
-    width: 100%;
+  /* END Section 1 */
+
+  /* START Section 2 */
+  .footer-section-2 {
+    width: 50%;
     max-width: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end; /* Align content to the end within the section */
   }
   
   .footer-link-wrapper {
@@ -60,11 +65,8 @@
     box-sizing: border-box;
   }
   
-  .footer-link-items h2 {
+  .footer-link-items h4 {
     margin-bottom: 16px;
-  }
-  
-  .footer-link-items > h2 {
     color: var(--light);
   }
   
@@ -78,10 +80,7 @@
     color: var(--light);
     transition: 0.3s ease-out;
   }
-  
-  .footer-email-form h2 {
-    margin-bottom: 2rem;
-  }
+  /* END Section 2 */
   
   .footer-input::placeholder {
     color: var(--light);
