@@ -48,7 +48,7 @@ window.addEventListener('resize', showButton)
                 </NavLink>
               </li>
               <li className='nav-item'>
-                <NavLink to='/ProjectView' className='nav-links' onClick={closeMobileMenu}>
+                <NavLink to='/ProjectsPage' className='nav-links' onClick={closeMobileMenu}>
                   Projects
                 </NavLink>
               </li>

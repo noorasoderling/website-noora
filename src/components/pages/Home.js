@@ -4,6 +4,7 @@ import HeroSection from '../HeroSection';
 import ProjectCards from './ProjectCards.js';
 import Footer from '../Footer';
 import CompetenceView from './CompetenceView.js';
+import ProjectsPage from './ProjectsPage.js'
 
 
 function Home () {
@@ -12,6 +13,7 @@ function Home () {
         <HeroSection />
         <CompetenceView />
         <ProjectCards />
+        <ProjectsPage />
         <Footer />
         </>
     );
