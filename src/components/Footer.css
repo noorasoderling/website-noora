@@ -1,32 +1,34 @@
+.footer {
+  width: 100%;
+  background-color: var(--dark);
+  padding: 4rem ;
+}
+
 .footer-container {
-    width: 100%;
-    background-color: var(--dark);
-    padding: 4rem 0 2rem 0;
-    display: flex;
-    flex-direction: row;
+    /* align-items: flex-start; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
     justify-content: space-between;
-    align-items: flex-start; /* Align items to the start of the cross-axis */
+    align-content: space-between;
   }
 
-  /* START Section 1 */
-  .footer-section-1 {
-    width: 50%;
+  /* START col 1 */
+  .footer-col-1 {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     margin-bottom: 24px;
     padding: 24px;
     color: var(--light);
   }
   
-  .footer-section-1-heading {
+  .footer-col-1-heading {
     margin-bottom: 24px;
     font-size: 24px;
   }
   
-  .footer-section-1-text {
+  .footer-col-1-text {
     margin-bottom: 24px;
     font-size: 20px;
   }
@@ -41,47 +43,60 @@
     margin-bottom: 16px;
     border: 1px solid var(--light);
   }
-  /* END Section 1 */
+  /* END col 1 */
 
-  /* START Section 2 */
-  .footer-section-2 {
-    width: 50%;
-    max-width: 1000px;
+  /* START col 2 */
+  .footer-col-2 {
+    width: 100%;
     display: flex;
-    justify-content: flex-end; /* Align content to the end within the section */
+    margin-bottom: 24px;
+    padding: 24px;
+    color: var(--light);
+    justify-content: flex-end; /* Align content to the end within the col */
   }
-  
-  .footer-link-wrapper {
-    display: flex;
-  }
-  
+
   .footer-link-items {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin: 16px;
-    text-align: left;
-    width: 160px;
-    box-sizing: border-box;
+    text-align: right;
   }
   
-  .footer-link-items h4 {
-    margin-bottom: 16px;
+  .footer-link-items p {
+    margin-bottom: 24px;
     color: var(--light);
+    font-size: 20px;
   }
   
   .footer-link-items a {
     color: var(--light);
     text-decoration: none;
     margin-bottom: 0.5rem;
+    text-align: right;
   }
   
   .footer-link-items a:hover {
     color: var(--light);
     transition: 0.3s ease-out;
   }
-  /* END Section 2 */
-  
+  /* END col 2 */
+
+  /* START copywright section */
+  .copywright {
+    width: 100%;
+    background-color: var(--dark);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .copywright p {
+    color: var(--light);
+    margin: 0;
+    font-size: 20px;
+  }
+  /* END copywright section */  
+
   .footer-input::placeholder {
     color: var(--light);
   }
