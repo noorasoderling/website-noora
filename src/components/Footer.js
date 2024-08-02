@@ -6,53 +6,37 @@ import '../App.css';
 
 function Footer() {
   return (
-    <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-            Join the adventure of Noora living her best life.
-        </p>
-        <p className='footer-subscription-text'>
-            You can never unsubscribe
-        </p>
-        <div className='input-areas'>
-            <form>
-                <input type="email" name="email" placeholder="Your Email" className='footer-input'></input>
-                <Button buttonstyle="btn--outline">Subscribe</Button>
-            </form>
+    <div className='footer'>
+      <div className='footer-container'>
+        <div className='footer-col-1'>
+          <p className='footer-col-1-text'>
+              Want to contact me?
+          </p>
+          <div className='input-areas'>
+              <form>
+                  <input type="email" name="email" placeholder="Your Email" className='footer-input'></input>
+                  <Button buttonstyle="btn--outline">Contact</Button>
+              </form>
+          </div>
         </div>
-      </section>
-      <div className='footer-links'>
-        <div className='footer-link-wrapper'>
-            <div className='footer-link-items'>
-                <h2>About me</h2>
-                <Link to='/Contact'>How it works</Link>
-                <Link to='/Tuska'>Web Development</Link>
-                <Link to='/FlowFestival'>React Native</Link>
-            </div>
-            <div className='footer-link-items'>
-                <h2>Contact me</h2>
-                <Link to='/Contact'>How it works</Link>
-                <Link to='/Tuska'>Web Development</Link>
-                <Link to='/FlowFestival'>React Native</Link>
-            </div>
-        </div>
-        <div className='footer-link-wrapper'>
-            <div className='footer-link-items'>
-                <h2>About me</h2>
-                <Link to='/Contact'>How it works</Link>
-                <Link to='/Tuska'>Web Development</Link>
-                <Link to='/FlowFestival'>React Native</Link>
-            </div>
-            <div className='footer-link-items'>
-                <h2>Contact me</h2>
-                <Link to='/Contact'>How it works</Link>
-                <Link to='/Tuska'>Web Development</Link>
-                <Link to='/FlowFestival'>React Native</Link>
-            </div>
+        <div className='footer-col-2'>
+          <div className='footer-link-items'>
+            <p>Also visit:</p>
+              <Link to='/Contact'>LinkedIn</Link>
+              <Link to='/Tuska'>Github</Link>
+              <Link to='/FlowFestival'>Résumé</Link>
+          </div>
         </div>
       </div>
-      
+      <div className='copywright'>
+        <p>EN, FI, FR</p>
+        <p>© Noora Söderling</p>
+      </div>
     </div>
+    
+    
+    
+    
   )
 }
 
